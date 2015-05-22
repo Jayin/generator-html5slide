@@ -20,8 +20,8 @@ make update
 ```bash
 npm link
 
-#if you work done
-npm unlink
+#if you work done, unlink you generator
+npm unlink generator-html5slide -g
 ```
 
 ## License
