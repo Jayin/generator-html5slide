@@ -1,0 +1,3 @@
+[submodule "generators/app/templates/html5slide-framework"]
+	path = generators/app/templates/html5slide-framework
+	url = https://github.com/Jayin/html5slide-framework.git
