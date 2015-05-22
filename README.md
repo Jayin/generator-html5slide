@@ -1,41 +1,28 @@
-# generator-html5slide [![Build Status](https://secure.travis-ci.org/Jayin/generator-html5slide.png?branch=master)](https://travis-ci.org/Jayin/generator-html5slide)
+## generator-html5slide [![Build Status](https://secure.travis-ci.org/Jayin/generator-html5slide.png?branch=master)](https://travis-ci.org/Jayin/generator-html5slide)
 
-## Getting Started
+## Development
 
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+### init work
 
 ```bash
-npm install -g yo
+git clone https://github.com/Jayin/generator-html5slide.git
+cd generator-html5slide && make
 ```
 
-### Yeoman Generators
-
-#### install yeoman CLI
+### update html5slide framework
 
 ```bash
-npm install -g yo
+make update
 ```
 
-#### To install generator-html5slide from npm, run:
+### link to your project locally
 
 ```bash
-npm install -g generator-html5slide
+npm link
+
+#if you work done
+npm unlink
 ```
-
-#### Finally, initiate the generator:
-
-```bash
-yo html5slide
-```
-
 
 ## License
 
